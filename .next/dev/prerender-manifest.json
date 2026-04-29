@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "6dc5718a551042238a5dbd90bcc6546b",
-    "previewModeSigningKey": "7391e9924dd688fefef0e72d5b9bd11222432f2d563c0e78d3a6bc9d91023655",
-    "previewModeEncryptionKey": "00c2e46f14c80bc1addd499bf2063ce8e01b5bbd0d6d552295bf0ba30145c2cf"
-  }
-}
+{"version":4,"routes":{"/services/droit-des-societes":{},"/services/droit-des-investissements":{},"/services/droit-bancaire-finance":{},"/services/droit-des-assurances":{},"/services/financement-de-projets":{},"/services/contentieux-arbitrage":{},"/services/concurrence-consommation":{},"/services/droit-du-travail":{},"/services/droit-fiscal":{},"/services/droit-immobilier":{},"/services/telecoms-nouvelles-technologies":{},"/services/propriete-intellectuelle":{},"/services/droit-du-sport":{}},"dynamicRoutes":{"/services/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/services/[slug]","routeRegex":"^\\/services\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"354d524372b6a358144ba844b228f463","previewModeSigningKey":"09af026f1d8195d239add9a5d9a194028a1c3303c940682727b3a8d5ff447bc5","previewModeEncryptionKey":"7c716299ba406f2b1cd6757b2e526080075442aa5e55315b418dbf27fb489c6f"}}
