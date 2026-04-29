@@ -1,6 +1,7 @@
-# React + TypeScript + Vite
+# Lawyer Abidi - Cabinet d'Avocat
+Professional legal practice website for Maître Yosra Abidi.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Deployment trigger for project rename.*
 
 Currently, two official plugins are available:
 
