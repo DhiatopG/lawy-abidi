@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans bg-marble text-dark antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-primary;
+  }
+}
+
+@layer components {
+  .luxury-gradient {
+    background: linear-gradient(135deg, #102A43 0%, #243B53 100%);
+  }
+
+  .gold-border {
+    border: 1px solid rgba(197, 160, 89, 0.3);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .btn-gold {
+    @apply bg-accent text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-[#b38f4d] hover:shadow-lg active:scale-95 flex items-center justify-center gap-2;
+  }
+
+  .bento-card {
+    @apply bg-white p-8 rounded-xl gold-border hover:shadow-xl transition-all duration-500 hover:-translate-y-1;
+  }
+}
